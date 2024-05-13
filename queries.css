@@ -1,0 +1,108 @@
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        height: auto;
+    }
+
+    .text-1 {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .pre {
+        padding: 10px;
+        width: auto;
+    }
+
+    .skill-li,
+    .skills li {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    img {
+        margin: 10px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    .img1{
+        width: 450px;
+    }
+
+    .footer {
+        background-color: #153677; /* Semi-transparent white background */
+        backdrop-filter: blur(10px); /* Apply blur effect */
+        border-radius: 20px; /* Rounded corners */
+        padding: 20px; /
+    }
+    .link-1 a img{
+        width: 50px;
+    }
+
+    .project-link {
+        height: auto;
+    }
+
+    .project-link img {
+        width: 150px;
+        height: auto;
+    }
+
+    #li-1,
+    #li-3 {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .link-1 img{
+        width: 20px;
+        padding: 0;
+        margin: o;
+        
+    }
+    audio {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjustments for medium-sized screens */
+    h1 {
+        font-size: 40px;
+    }
+    .img1{
+        width: 450px;
+    }
+   
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for very small screens */
+    .list-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .link img {
+        width: 10px;
+    }
+
+    body {
+        height: auto;
+    }
+
+    .img1{
+        width: 450px;
+    }
+
+}
+

@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg,black, #031333, #1d0324);
+    height: calc(100vh - 80px);
+    text-align: center;
+}
+audio {
+    width: 30%;
+}
+audio::-webkit-media-controls-volume-slider {
+    background-color: aqua;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #031333;
+    font-size: 14px;
+}
+.up {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    z-index: 99; 
+    cursor: pointer;
+    width: 20px;
+    background: #153677;
+    float: left;
+    border-radius: 60px;
+    opacity: 0.5;
+}
+.up:hover{
+    width: 25px;
+    background: aqua;
+    opacity: 1.5;
+
+}
+.paragraph-1{
+    color: aqua;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 20px;
+
+}
+.title1{
+   background: yellow;
+   color: #1d0324;
+   border-radius: 5px;
+}
+.footer , .skills {
+    background: linear-gradient(135deg, rgba(0, 0, 12, 0.966), rgb(0, 112, 112), rgba(0, 0, 12, 0.966));
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.h1 {
+    padding: 8px;
+    color: aqua;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgb(0, 255, 255);
+    text-shadow: 0px 4px 8px rgb(0, 255, 255);
+    height: 20%;
+    border-top: #1d0324;
+    font-weight: bold;
+    font-family: italic;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}
+.title2{
+    padding: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgb(0, 255, 255);
+    height: 20%;
+}
+.sololearn , .plp{
+    animation: slideInLeft ease 5s;
+}
+.google{
+    animation: slideInright ease 5s;
+}
+.sololearn ,.google , .plp{
+    border: 2px solid rgba(0, 255, 255, 0.384);
+    border-radius: 20px;
+    background: #06225e;
+    margin-top: 15px;
+}
+.sololearn img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.google img {
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.plp img {
+    float: left;
+    height: 100px;
+    width: 150px;
+}
+.sololearn h2 ,.google h2 , .plp h2{
+    font-size: 23px;
+    color: aqua;
+    font-weight: bold;
+    font-family: italic;
+
+}
+.sololearn h5 ,.google h5 , .plp h5{
+    color: yellow;
+    font-size: 15px;
+    text-align: center;
+    font-family: italic;
+}
+.sololearn p , .google p , .plp p{
+    color: aquamarine;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Education h3 ,.my-projects h3 ,
+ .upcoming-projects h3 , .skills h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: italic;
+    background: rgba(0, 255, 255, 0.548);
+    border-radius: 20px;
+}
+.my-projects h8{
+    background: yellow;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.my-projects a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 30px;
+    color: aqua;
+    background: #06225e;
+    font-family: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 180px;
+}
+.project-link{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    color: aqua;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+}
+.project-link img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.project-link {
+    height: auto;
+    
+}
+
+.project-link img {
+    width: 150px;
+    height: auto;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+@keyframes slideInright {
+    0% { transform: translateX(50); }
+    100% { transform: translateX(-50%); }
+}
